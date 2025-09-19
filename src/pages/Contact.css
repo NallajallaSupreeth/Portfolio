@@ -1,0 +1,82 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact-form-wrapper {
+  flex: 1;
+  max-width: 600px;
+}
+
+.contact-form-wrapper h2 {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-wrapper p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.contact-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--dark-text-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--gray-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2);
+}
+
+.contact-form-wrapper .btn {
+  align-self: flex-start;
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .contact-form-wrapper .btn {
+    align-self: center;
+  }
+}
