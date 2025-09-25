@@ -1,19 +1,31 @@
 import React from 'react';
-import './Skills.css'; // We will create this file next
+import './Skills.css';
 
-// Example skills data - you can replace this with your own
+// Updated skills data based on your list
 const skillCategories = [
   {
-    name: 'Frontend',
-    skills: ['React', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Vite']
+    name: 'Programming Languages',
+    skills: ['Python', 'Java', 'C']
   },
   {
-    name: 'Backend',
-    skills: ['Node.js', 'Express', 'MongoDB', 'REST APIs']
+    name: 'Web Development',
+    skills: ['HTML5', 'CSS', 'JavaScript', 'React.js', 'Flask']
   },
   {
-    name: 'Tools & Methods',
-    skills: ['Git & GitHub', 'Agile', 'UI/UX Design', 'Figma']
+    name: 'Data Science & AI',
+    skills: ['Machine Learning (ML)', 'Deep Learning (DL)', 'Natural Language Processing (NLP)']
+  },
+  {
+    name: 'Database Systems',
+    skills: ['SQL','Mongodb']
+  },
+  {
+    name: 'Project & Delivery Management',
+    skills: ['Agile', 'Scrum']
+  },
+  {
+    name: 'Tools & Platforms',
+    skills: ['Git', 'GitHub', 'Google Colab', 'Eclipse']
   }
 ];
 

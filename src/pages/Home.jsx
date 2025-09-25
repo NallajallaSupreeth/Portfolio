@@ -9,10 +9,9 @@ const Home = () => {
     <div className="hero section">
       <div className="container hero-container">
         <div className="hero-text">
-          <h1>Creative Developer & Designer</h1>
+          <h1>AI & ML Enthusiast</h1>
           <p>
-            I'm Nallajalla Supreeth, a passionate developer specializing in building beautiful, 
-            user-friendly websites and applications. Welcome to my creative corner.
+            I'm Nallajalla Supreeth, a developer and researcher passionate about creating intelligent, efficient, and impactful solutions with machine learning, deep learning, and modern web technologies. Welcome to my innovation space.
           </p>
           <Link to="/portfolio" className="btn btn-primary">View My Work</Link>
         </div>

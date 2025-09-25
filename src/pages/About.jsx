@@ -21,14 +21,10 @@ const About = () => {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            Hello! I'm N.Supreeth, a developer with a knack for creating clean,
-            efficient, and visually appealing web experiences. My journey into tech
-            started with a fascination for how things work, and it has evolved into
-            a career where I get to build them myself.
+            Hello! I'm N. Supreeth, a Computer Science and Engineering student specializing in AI Systems for Visual Intelligence at KL University, Vijayawada. My passion lies in exploring the intersection of machine learning and deep learning, and my current research focuses on the Interpretability–Performance Dilemma in Text Classification—analyzing the trade-offs between accuracy, efficiency, and transparency.
           </p>
           <p>
-            My skills include React, Node.js, CSS, and UI/UX design principles. I'm a
-            lifelong learner, always excited to pick up new technologies.
+           Beyond research, I enjoy building practical solutions with my skills in Python, Java, C, SQL, and React.js. I'm particularly driven by the potential of AI-powered analytics in distributed systems to improve security, transparency, and efficiency in industrial automation.
           </p>
           <a href={resumePdf} download="Nallajalla_Supreeth_Resume.pdf" className="btn btn-primary">
             Download My CV
