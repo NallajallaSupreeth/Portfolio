@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 // Import Page Components
 import Home from './pages/Home';
 import About from './pages/About';
-import Skills from './pages/Skills'; // Add this
-import Achievements from './pages/Achievements'; // Add this
+import Skills from './pages/Skills';
+import Achievements from './pages/Achievements';
 import Portfolio from './pages/Portfolio';
 import ProjectDetail from './pages/ProjectDetail';
 import Contact from './pages/Contact';
@@ -21,13 +21,20 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} /> {/* Add this */}
-          <Route path="/achievements" element={<Achievements />} /> {/* Add this */}
-          <Route path="/portfolio" element={<Portfolio />} />
+          {/* 1. The Home route now contains ALL sections stacked together */}
+          <Route path="/" element={
+            <>
+              <section id="home"><Home /></section>
+              <section id="about"><About /></section>
+              <section id="skills"><Skills /></section>
+              <section id="portfolio"><Portfolio /></section>
+              <section id="achievements"><Achievements /></section>
+              <section id="contact"><Contact /></section>
+            </>
+          } />
+
+          {/* 2. Keep these as separate pages if needed */}
           <Route path="/project/:id" element={<ProjectDetail />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} /> 
         </Routes>
       </main>

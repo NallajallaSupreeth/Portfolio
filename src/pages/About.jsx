@@ -27,7 +27,7 @@ const About = () => {
            Beyond research, I enjoy building practical solutions with my skills in Python, Java, C, SQL, and React.js. I'm particularly driven by the potential of AI-powered analytics in distributed systems to improve security, transparency, and efficiency in industrial automation.
           </p>
           <a href={resumePdf} download="Nallajalla_Supreeth_Resume.pdf" className="btn btn-primary">
-            Download My CV
+            Download My Resume
           </a>
         </div>
       </div>
